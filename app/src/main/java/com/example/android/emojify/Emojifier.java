@@ -55,7 +55,7 @@ class Emojifier {
 
         // If there are no faces detected, show a Toast message
         if(faces.size() == 0){
-            Toast.makeText(context, R.string.no_faces_message, Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "No faces", Toast.LENGTH_SHORT).show();
         }
 
         // Release the detector
